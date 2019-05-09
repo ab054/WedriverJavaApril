@@ -54,7 +54,7 @@ public class Day3 {
     }
 
     @Test
-    public void testInherClass() {
+    public void testInheritanceClass() {
         AutomationTester automationTester = new AutomationTester();
 
         Employee employee = new Employee();

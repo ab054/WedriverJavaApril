@@ -11,6 +11,7 @@ public class GoogleSearch {
 
     WebDriver driver;
 
+    //TODO: run this test in DEBUGGER
     @Test
     public void test001() {
         System.setProperty("webdriver.gecko.driver", "src/test/resources/drivers/geckodriver.exe");

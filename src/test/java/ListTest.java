@@ -16,7 +16,15 @@ public class ListTest {
 
         list.remove(2);
 
+        int[] arrayOfIntegers = {1, 2, 3, 4, 5};
+        arrayOfIntegers[4] = 5;
+
         boolean isEqualto3 = list.size() == 2;
+
+
+        for (int eachListMember : list) {
+            System.out.println(eachListMember);
+        }
 
         Assert.assertTrue(isEqualto3);
     }
